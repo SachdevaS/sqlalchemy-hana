@@ -1,0 +1,2018 @@
+============================= test session starts =============================
+platform win32 -- Python 2.7.0, pytest-3.2.3, py-1.4.34, pluggy-0.4.0 -- c:\python27\python.exe
+cachedir: .cache
+rootdir: C:\Python27\Lib\site-packages\sqlalchemy-hana, inifile: setup.cfg
+collecting ... collected 200 items
+
+test/test_suite.py::AutocommitTest::test_autocommit_off <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_dialect.py SKIPPED
+test/test_suite.py::AutocommitTest::test_autocommit_on <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_dialect.py SKIPPED
+test/test_suite.py::BooleanTest_hana+hdbcli::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::BooleanTest_hana+hdbcli::test_render_literal_bool <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::BooleanTest_hana+hdbcli::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_autoincrement_col <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_deprecated_get_primary_keys <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_dialect_initialize <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_check_constraints <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_check_constraints_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_columns <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_columns_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_comments <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_comments_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_default_schema_name <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_foreign_key_options <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_foreign_keys <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_foreign_keys_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_indexes <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_indexes_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_noncol_index_no_pk <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_noncol_index_pk <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_pk_constraint <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_pk_constraint_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_schema_names <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_table_names <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_table_names_fks <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_table_names_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_table_oid <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_table_oid_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_tables_and_views <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_temp_table_columns <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_temp_table_indexes <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_temp_table_names <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_temp_table_unique_constraints <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_temp_view_columns <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_temp_view_names <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_unique_constraints <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_unique_constraints_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_view_columns <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_view_columns_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_view_definition <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_view_definition_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_view_names <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_get_view_names_with_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_nullable_reflection <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_numeric_reflection <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::ComponentReflectionTest_hana+hdbcli::test_varchar_reflection <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py ERROR
+test/test_suite.py::CompoundSelectTest_hana+hdbcli::test_distinct_selectable_in_unions <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::CompoundSelectTest_hana+hdbcli::test_limit_offset_aliased_selectable_in_unions <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::CompoundSelectTest_hana+hdbcli::test_limit_offset_in_unions_from_alias <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::CompoundSelectTest_hana+hdbcli::test_limit_offset_selectable_in_unions <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::CompoundSelectTest_hana+hdbcli::test_order_by_selectable_in_unions <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::CompoundSelectTest_hana+hdbcli::test_plain_union <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::CompoundSelectTest_hana+hdbcli::test_select_from_plain_union <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::DateHistoricTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateHistoricTest_hana+hdbcli::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateHistoricTest_hana+hdbcli::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTest_hana+hdbcli::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTest_hana+hdbcli::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTimeCoercedToDateTimeTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTimeCoercedToDateTimeTest_hana+hdbcli::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTimeCoercedToDateTimeTest_hana+hdbcli::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTimeHistoricTest::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::DateTimeHistoricTest::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::DateTimeHistoricTest::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::DateTimeMicrosecondsTest::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::DateTimeMicrosecondsTest::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::DateTimeMicrosecondsTest::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::DateTimeTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTimeTest_hana+hdbcli::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::DateTimeTest_hana+hdbcli::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::EscapingTest::test_percent_sign_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_dialect.py PASSED
+test/test_suite.py::ExceptionTest_hana+hdbcli::test_integrity_error <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_dialect.py FAILED
+test/test_suite.py::ExpandingBoundInTest_hana+hdbcli::test_bound_in_scalar <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::ExpandingBoundInTest_hana+hdbcli::test_bound_in_two_tuple <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py SKIPPED
+test/test_suite.py::HANAConnectionIsDisconnectedTest::test_detection_by_error_code PASSED
+test/test_suite.py::HANAConnectionIsDisconnectedTest::test_detection_by_isconnected_function PASSED
+test/test_suite.py::HasSequenceTest_hana+hdbcli::test_has_sequence <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::HasSequenceTest_hana+hdbcli::test_has_sequence_default_not_in_remote <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::HasSequenceTest_hana+hdbcli::test_has_sequence_neg <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::HasSequenceTest_hana+hdbcli::test_has_sequence_remote_not_in_default <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::HasSequenceTest_hana+hdbcli::test_has_sequence_schema <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::HasSequenceTest_hana+hdbcli::test_has_sequence_schemas_neg <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::HasTableTest_hana+hdbcli::test_has_table <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py PASSED
+test/test_suite.py::InsertBehaviorTest_hana+hdbcli::test_autoclose_on_insert <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py PASSED
+test/test_suite.py::InsertBehaviorTest_hana+hdbcli::test_autoclose_on_insert_implicit_returning <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py SKIPPED
+test/test_suite.py::InsertBehaviorTest_hana+hdbcli::test_empty_insert <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py SKIPPED
+test/test_suite.py::InsertBehaviorTest_hana+hdbcli::test_insert_from_select <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py PASSED
+test/test_suite.py::InsertBehaviorTest_hana+hdbcli::test_insert_from_select_autoinc <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py PASSED
+test/test_suite.py::InsertBehaviorTest_hana+hdbcli::test_insert_from_select_autoinc_no_rows <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py PASSED
+test/test_suite.py::InsertBehaviorTest_hana+hdbcli::test_insert_from_select_with_defaults <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py PASSED
+test/test_suite.py::IntegerTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::JSONTest::test_crit_against_int_basic <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_crit_against_int_coerce_type <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_crit_against_string_basic <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_crit_against_string_coerce_type <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_crit_mixed_path <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_crit_simple_int <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_crit_spaces_in_key <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_crit_string_path <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_eval_none_flag_orm <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_round_trip_data1 <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_round_trip_json_null_as_json_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_round_trip_none_as_json_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_round_trip_none_as_sql_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::JSONTest::test_unicode_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::LastrowidTest_hana+hdbcli::test_autoincrement_on_insert <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py PASSED
+test/test_suite.py::LastrowidTest_hana+hdbcli::test_last_inserted_id <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py PASSED
+test/test_suite.py::LastrowidTest_hana+hdbcli::test_native_lastrowid_autoinc <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py SKIPPED
+test/test_suite.py::LimitOffsetTest_hana+hdbcli::test_bound_limit <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py SKIPPED
+test/test_suite.py::LimitOffsetTest_hana+hdbcli::test_bound_limit_offset <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py SKIPPED
+test/test_suite.py::LimitOffsetTest_hana+hdbcli::test_bound_offset <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py SKIPPED
+test/test_suite.py::LimitOffsetTest_hana+hdbcli::test_limit_offset_nobinds <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::LimitOffsetTest_hana+hdbcli::test_simple_limit <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::LimitOffsetTest_hana+hdbcli::test_simple_limit_offset <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::LimitOffsetTest_hana+hdbcli::test_simple_offset <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::NormalizedNameTest_hana+hdbcli::test_get_table_names <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py PASSED
+test/test_suite.py::NormalizedNameTest_hana+hdbcli::test_reflect_lowercase_forced_tables <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_reflection.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_enotation_decimal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_enotation_decimal_large <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_float_as_decimal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_float_as_float <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_float_coerce_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_float_custom_scale <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_many_significant_digits <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_numeric_as_decimal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_numeric_as_float <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_numeric_no_decimal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py FAILED
+test/test_suite.py::NumericTest_hana+hdbcli::test_numeric_null_as_decimal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_numeric_null_as_float <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_precision_decimal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_render_literal_float <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_render_literal_numeric <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::NumericTest_hana+hdbcli::test_render_literal_numeric_asfloat <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::OrderByLabelTest_hana+hdbcli::test_composed_int <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::OrderByLabelTest_hana+hdbcli::test_composed_int_desc <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::OrderByLabelTest_hana+hdbcli::test_composed_multiple <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::OrderByLabelTest_hana+hdbcli::test_group_by_composed <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::OrderByLabelTest_hana+hdbcli::test_plain <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::OrderByLabelTest_hana+hdbcli::test_plain_desc <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_select.py PASSED
+test/test_suite.py::PercentSchemaNamesTest::test_executemany_roundtrip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::PercentSchemaNamesTest::test_single_roundtrip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ReturningTest::test_autoincrement_on_insert_implcit_returning <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py SKIPPED
+test/test_suite.py::ReturningTest::test_explicit_returning_pk_autocommit <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py SKIPPED
+test/test_suite.py::ReturningTest::test_explicit_returning_pk_no_autocommit <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py SKIPPED
+test/test_suite.py::ReturningTest::test_last_inserted_id_implicit_returning <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_insert.py SKIPPED
+test/test_suite.py::RowFetchTest_hana+hdbcli::test_row_w_scalar_select <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py PASSED
+test/test_suite.py::RowFetchTest_hana+hdbcli::test_row_with_dupe_names <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py PASSED
+test/test_suite.py::RowFetchTest_hana+hdbcli::test_via_col_object <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py PASSED
+test/test_suite.py::RowFetchTest_hana+hdbcli::test_via_int <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py PASSED
+test/test_suite.py::RowFetchTest_hana+hdbcli::test_via_string <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py PASSED
+test/test_suite.py::SequenceTest_hana+hdbcli::test_insert_lastrowid <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::SequenceTest_hana+hdbcli::test_insert_roundtrip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::SequenceTest_hana+hdbcli::test_nextval_direct <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py PASSED
+test/test_suite.py::SequenceTest_hana+hdbcli::test_optional_seq <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_sequence.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_aliases_and_ss <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_conn_option <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_for_update_expr <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_for_update_string <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_global_expr <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_global_off_explicit <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_global_string <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_global_text <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_roundtrip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_stmt_enabled_conn_option_disabled <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_stmt_option <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_stmt_option_disabled <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_text_no_ss <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::ServerSideCursorsTest::test_text_ss_option <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_results.py SKIPPED
+test/test_suite.py::SimpleUpdateDeleteTest_hana+hdbcli::test_delete <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_update_delete.py PASSED
+test/test_suite.py::SimpleUpdateDeleteTest_hana+hdbcli::test_update <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_update_delete.py PASSED
+test/test_suite.py::StringTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::StringTest_hana+hdbcli::test_literal_backslashes <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::StringTest_hana+hdbcli::test_literal_quoting <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::StringTest_hana+hdbcli::test_nolength_string <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TableDDLTest_hana+hdbcli::test_create_table <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_ddl.py PASSED
+test/test_suite.py::TableDDLTest_hana+hdbcli::test_drop_table <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_ddl.py PASSED
+test/test_suite.py::TableDDLTest_hana+hdbcli::test_underscore_names <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_ddl.py PASSED
+test/test_suite.py::TextTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TextTest_hana+hdbcli::test_literal_backslashes <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TextTest_hana+hdbcli::test_literal_percentsigns <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TextTest_hana+hdbcli::test_literal_quoting <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TextTest_hana+hdbcli::test_text_empty_strings <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TextTest_hana+hdbcli::test_text_roundtrip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TimeMicrosecondsTest::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::TimeMicrosecondsTest::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::TimeMicrosecondsTest::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py SKIPPED
+test/test_suite.py::TimeTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TimeTest_hana+hdbcli::test_null <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::TimeTest_hana+hdbcli::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::UnicodeTextTest_hana+hdbcli::test_empty_strings_text <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::UnicodeTextTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::UnicodeTextTest_hana+hdbcli::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::UnicodeTextTest_hana+hdbcli::test_round_trip_executemany <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::UnicodeVarcharTest_hana+hdbcli::test_empty_strings_varchar <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::UnicodeVarcharTest_hana+hdbcli::test_literal <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::UnicodeVarcharTest_hana+hdbcli::test_round_trip <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+test/test_suite.py::UnicodeVarcharTest_hana+hdbcli::test_round_trip_executemany <- build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py PASSED
+=========================== short test summary info ===========================
+FAIL test/test_suite.py::ExceptionTest_hana+hdbcli::()::test_integrity_error
+FAIL test/test_suite.py::NumericTest_hana+hdbcli::()::test_numeric_no_decimal
+
+=================================== ERRORS ====================================
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_autoincrement_col _
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_deprecated_get_primary_keys 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_dialect_initialize 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_check_constraints 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_check_constraints_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+___ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_columns ____
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_columns_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+___ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_comments ___
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_comments_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_default_schema_name 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_foreign_key_options 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+_ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_foreign_keys _
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_foreign_keys_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+___ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_indexes ____
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_indexes_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_noncol_index_no_pk 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_noncol_index_pk 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_pk_constraint _
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_pk_constraint_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+_ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_schema_names _
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+_ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_table_names __
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_table_names_fks 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_table_names_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+__ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_table_oid ___
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_table_oid_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_tables_and_views 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_temp_table_columns 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_temp_table_indexes 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_temp_table_names 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_temp_table_unique_constraints 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_temp_view_columns 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_temp_view_names 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_unique_constraints 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_unique_constraints_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+_ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_view_columns _
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_view_columns_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_view_definition 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_view_definition_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+__ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_view_names __
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_get_view_names_with_schema 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_nullable_reflection 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_numeric_reflection 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+ ERROR at setup of ComponentReflectionTest_hana+hdbcli.test_varchar_reflection 
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 83, in setup_class
+    cls._setup_once_tables()
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\fixtures.py", line 112, in _setup_once_tables
+    cls.metadata.create_all(cls.bind)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\schema.py", line 3992, in create_all
+    tables=tables)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1940, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1549, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 757, in visit_metadata
+    _is_metadata_operation=True)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 791, in visit_table
+    include_foreign_key_constraints=include_foreign_key_constraints
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\ddl.py", line 68, in _execute_on_connection
+    return connection._execute_ddl(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1009, in _execute_ddl
+    compiled
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (365, 'no matching primary key for this column list: line 2 col 1 (at pos 1)') [SQL: u'\nCREATE TABLE email_addresses (\n\taddress_id INTEGER NOT NULL, \n\tremote_user_id INTEGER, \n\temail_address VARCHAR(20), \n\tCONSTRAINT email_ad_pk PRIMARY KEY (address_id), \n\tFOREIGN KEY(remote_user_id) REFERENCES users (user_id)\n)\n\n']
+================================== FAILURES ===================================
+_______________ ExceptionTest_hana+hdbcli.test_integrity_error ________________
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_dialect.py", line 42, in test_integrity_error
+    {'id': 1, 'data': 'd1'}
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\assertions.py", line 280, in assert_raises
+    callable_(*args, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\sql\elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "build\bdist.win-amd64\egg\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "build\bdist.win-amd64\egg\sqlalchemy\engine\default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 383, in execute
+    ret = self.__execute(operation, parameters)
+  File "C:\Python27\Lib\site-packages\hdbcli\dbapi.py", line 254, in __execute
+    ret = self.__cursor.execute(operation, parameters=parameters, iscall=iscall, scrollable=self._scrollable)
+DBAPIError: (hdbcli.dbapi.Error) (301, 'unique constraint violated: Table(MANUAL_PK), Index(_SYS_TREE_RS_#385367_#0_#P0)') [SQL: u'INSERT INTO manual_pk (id, data) VALUES (?, ?)'] [parameters: (1, 'd1')]
+_______________ NumericTest_hana+hdbcli.test_numeric_no_decimal _______________
+Traceback (most recent call last):
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py", line 555, in test_numeric_no_decimal
+    check_scale=True
+  File "<string>", line 2, in _do_test
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\assertions.py", line 69, in decorate
+    return fn(*args, **kw)
+  File "<string>", line 2, in _do_test
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\util.py", line 196, in provide_metadata
+    return fn(*args, **kw)
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\suite\test_types.py", line 356, in _do_test
+    [str(x) for x in output],
+  File "build\bdist.win-amd64\egg\sqlalchemy\testing\assertions.py", line 222, in eq_
+    assert a == b, msg or "%r != %r" % (a, b)
+AssertionError: ['1'] != ['1.000']
+========= 2 failed, 102 passed, 53 skipped, 43 error in 5.49 seconds ==========
