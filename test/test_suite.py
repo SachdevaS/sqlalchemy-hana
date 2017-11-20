@@ -19,6 +19,11 @@ from sqlalchemy.testing import engines
 from sqlalchemy.testing.suite import *
 from sqlalchemy.testing.exclusions import skip_if
 from sqlalchemy.testing.mock import Mock
+from sqlalchemy.testing.suite import ComponentReflectionTest as _ComponentReflectionTest
+import sqlalchemy as sa
+from sqlalchemy import inspect
+import re
+import operator
 
 
 class HANAConnectionIsDisconnectedTest(fixtures.TestBase):
@@ -45,3 +50,40 @@ class HANAConnectionIsDisconnectedTest(fixtures.TestBase):
             isconnected=Mock(return_value=True)
         )
         assert not dialect.is_disconnect(None, mock_connection, None)
+
+
+class ComponentReflectionTest(_ComponentReflectionTest):
+    @testing.provide_metadata
+    def _test_get_check_constraints(self, schema=None):
+        orig_meta = self.metadata
+        Table(
+            'sa_cc', orig_meta,
+            Column('a', Integer()),
+            sa.CheckConstraint('a > 1 AND a < 5', name='cc1'),
+            sa.CheckConstraint('a = 1 OR (a > 2 AND a < 5)', name='cc2'),
+            schema=schema
+        )
+
+        orig_meta.create_all()
+
+        inspector = inspect(orig_meta.bind)
+        reflected = sorted(
+            inspector.get_check_constraints('sa_cc', schema=schema),
+            key=operator.itemgetter('name')
+        )
+
+        reflected = [
+            {"name": item["name"],
+             # trying to minimize effect of quoting, parenthesis, etc.
+             # may need to add more to this as new dialects get CHECK
+             # constraint reflection support
+             "sqltext": re.sub(r"[`'\(\)]", '', item["sqltext"].lower())}
+            for item in reflected
+        ]
+        eq_(
+            reflected,
+            [
+                {'name': 'cc1', 'sqltext': '  "a" > 1 and "a" < 5  '},
+                {'name': 'cc2', 'sqltext': '  "a" = 1 or   "a" > 2 and "a" < 5    '}
+            ]
+        )

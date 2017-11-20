@@ -167,7 +167,7 @@ class Requirements(requirements.SuiteRequirements):
 
     @property
     def check_constraints(self):
-        return exclusions.closed()
+        return exclusions.open()
 
     @property
     def update_nowait(self):
@@ -263,3 +263,8 @@ class Requirements(requirements.SuiteRequirements):
     @property
     def enforces_check_constraints(self):
         return exclusions.closed()
+
+    @property
+    def check_constraint_reflection(self):
+        return exclusions.open()
+
