@@ -38,8 +38,7 @@ class Requirements(requirements.SuiteRequirements):
 
     @property
     def named_constraints(self):
-        """target database must support names for constraints."""
-        return exclusions.closed()
+        return exclusions.open()
 
     @property
     def unique_constraint_reflection(self):
@@ -51,8 +50,7 @@ class Requirements(requirements.SuiteRequirements):
 
     @property
     def self_referential_foreign_keys(self):
-        """SAP HANA doen't support self-referential foreign keys."""
-        return exclusions.closed()
+        return exclusions.open()
 
     @property
     def empty_inserts(self):
@@ -268,3 +266,6 @@ class Requirements(requirements.SuiteRequirements):
     def check_constraint_reflection(self):
         return exclusions.open()
 
+    @property
+    def implicitly_named_constraints(self):
+        return exclusions.open()
