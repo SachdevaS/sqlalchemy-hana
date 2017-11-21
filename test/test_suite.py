@@ -20,6 +20,8 @@ from sqlalchemy.testing.suite import *
 from sqlalchemy.testing.exclusions import skip_if
 from sqlalchemy.testing.mock import Mock
 from sqlalchemy.testing.suite import ComponentReflectionTest as _ComponentReflectionTest
+from sqlalchemy import event
+from sqlalchemy.schema import DDL
 import sqlalchemy as sa
 from sqlalchemy import inspect
 import re
@@ -87,3 +89,49 @@ class ComponentReflectionTest(_ComponentReflectionTest):
                 {'name': 'cc2', 'sqltext': '  "a" = 1 or   "a" > 2 and "a" < 5    '}
             ]
         )
+
+    @classmethod
+    def define_temp_tables(cls, metadata):
+        # cheat a bit, we should fix this with some dialect-level
+        # temp table fixture
+
+        if testing.against("hana"):
+            kw = {
+                'prefixes': ["GLOBAL TEMPORARY"],
+                'oracle_on_commit': 'PRESERVE ROWS'
+            }
+        else:
+            kw = {
+                'prefixes': ["TEMPORARY"],
+            }
+
+        user_tmp = Table(
+            "user_tmp", metadata,
+            Column("id", sa.INT, primary_key=True),
+            Column('name', sa.VARCHAR(50)),
+            Column('foo', sa.INT),
+            sa.UniqueConstraint('name', name='user_tmp_uq'),
+            sa.Index("user_tmp_ix", "foo"),
+            **kw
+        )
+        if testing.requires.view_reflection.enabled and \
+                testing.requires.temporary_views.enabled:
+            event.listen(
+                user_tmp, "after_create",
+                DDL("create temporary view user_tmp_v as "
+                    "select * from user_tmp")
+            )
+            event.listen(
+                user_tmp, "before_drop",
+                DDL("drop view user_tmp_v")
+            )
+
+    @skip_if('hana')
+    @testing.requires.temp_table_reflection
+    @testing.requires.unique_constraint_reflection
+    def test_get_temp_table_unique_constraints(self):
+        insp = inspect(self.bind)
+        reflected = insp.get_unique_constraints('user_tmp')
+        for refl in reflected:
+            refl.pop('duplicates_index', None)
+        eq_(reflected, [{'column_names': ['name'], 'name': 'user_tmp_uq'}])
