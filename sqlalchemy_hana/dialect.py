@@ -541,8 +541,8 @@ ORDER BY POSITION"""
         check_condition_list = []
 
         for row in result.fetchall():
-            constraint_name = str(row[0])
-            check_condition = str(row[1])
+            constraint_name = row[0]
+            check_condition = row[1]
             check_condition_element = {
                 "name" : self.normalize_name(constraint_name),
                 "sqltext" : self.normalize_name(check_condition)
