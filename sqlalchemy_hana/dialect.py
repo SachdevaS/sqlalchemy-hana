@@ -302,7 +302,7 @@ class HANABaseDialect(default.DefaultDialect):
 
         result = connection.execute(
             sql.text(
-                "SELECT TABLE_NAME FROM M_TEMPORARY_TABLES ORDER BY NAME",
+                "SELECT TABLE_NAME FROM M_TEMPORARY_TABLES WHERE SCHEMA_NAME=:schema ",
             ).bindparams(
                 schema=self.denormalize_name(schema),
             )
