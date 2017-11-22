@@ -272,3 +272,7 @@ class Requirements(requirements.SuiteRequirements):
     @property
     def foreign_key_constraint_option_reflection(self):
         return exclusions.open()
+
+    @property
+    def comment_reflection(self):
+        return exclusions.open()
