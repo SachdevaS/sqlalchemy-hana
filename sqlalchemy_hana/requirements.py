@@ -80,8 +80,7 @@ class Requirements(requirements.SuiteRequirements):
 
     @property
     def datetime_microseconds(self):
-        """No support for microseconds in datetime"""
-        return exclusions.closed()
+        return exclusions.open()
 
     @property
     def datetime_historic(self):
