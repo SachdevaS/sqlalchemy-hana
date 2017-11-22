@@ -268,3 +268,7 @@ class Requirements(requirements.SuiteRequirements):
     @property
     def implicitly_named_constraints(self):
         return exclusions.open()
+
+    @property
+    def foreign_key_constraint_option_reflection(self):
+        return exclusions.open()

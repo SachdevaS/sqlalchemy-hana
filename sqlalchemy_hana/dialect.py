@@ -404,19 +404,24 @@ ORDER BY POSITION"""
         foreign_keys = []
 
         for row in result:
+
             foreign_key = {
                 "name": self.normalize_name(row[0]),
                 "constrained_columns": [self.normalize_name(row[1])],
                 "referred_schema": schema,
                 "referred_table": self.normalize_name(row[3]),
                 "referred_columns": [self.normalize_name(row[4])],
-                "options": {
-                    "onupdate": self.normalize_name(row[5]),
-                    "ondelete" : self.normalize_name(row[6])
-                }
+                "options": {}
             }
+
+            if row[5] != "RESTRICT" and row[6] != "RESTRICT" :
+                foreign_key["options"] = \
+                {"onupdate": self.denormalize_name(row[5]),
+                 "ondelete": self.denormalize_name(row[6])}
+
             if row[2] != self.denormalize_name(self.default_schema_name):
                 foreign_key["referred_schema"] = self.normalize_name(row[2])
+
             foreign_keys.append(foreign_key)
 
         return foreign_keys
@@ -560,6 +565,7 @@ ORDER BY POSITION"""
         for row in result.fetchall():
             table_oid = row[0]
         return table_oid
+
 
 class HANAPyHDBDialect(HANABaseDialect):
 
