@@ -92,13 +92,10 @@ class ComponentReflectionTest(_ComponentReflectionTest):
 
     @classmethod
     def define_temp_tables(cls, metadata):
-        # cheat a bit, we should fix this with some dialect-level
-        # temp table fixture
 
         if testing.against("hana"):
             kw = {
                 'prefixes': ["GLOBAL TEMPORARY"],
-                'oracle_on_commit': 'PRESERVE ROWS'
             }
         else:
             kw = {
