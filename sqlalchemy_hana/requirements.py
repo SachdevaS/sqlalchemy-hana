@@ -279,3 +279,7 @@ class Requirements(requirements.SuiteRequirements):
     @property
     def tuple_in(self):
         return exclusions.open()
+
+    @property
+    def autocommit(self):
+        return exclusions.open()

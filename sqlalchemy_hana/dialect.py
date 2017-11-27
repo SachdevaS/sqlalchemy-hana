@@ -587,6 +587,11 @@ ORDER BY POSITION"""
                 text["text"]=self.normalize_name(row[0])
         return text
 
+    def set_isolation_level(self, connection, level):
+        if level == "AUTOCOMMIT":
+            connection.setautocommit(True)
+        else:
+            connection.setautocommit(False)
 
 class HANAPyHDBDialect(HANABaseDialect):
 
