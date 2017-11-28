@@ -27,6 +27,10 @@ class Requirements(requirements.SuiteRequirements):
         return exclusions.open()
 
     @property
+    def temp_table_names(self):
+        return exclusions.open()
+
+    @property
     def views(self):
         return exclusions.open()
 

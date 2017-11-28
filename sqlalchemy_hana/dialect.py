@@ -293,7 +293,7 @@ class HANABaseDialect(default.DefaultDialect):
 
             )
         )
-        
+
         tables = list([
             self.normalize_name(row[0]) for row in result.fetchall() if row[1] == "FALSE"
         ])
@@ -304,14 +304,14 @@ class HANABaseDialect(default.DefaultDialect):
 
         result = connection.execute(
             sql.text(
-                "SELECT TABLE_NAME FROM M_TEMPORARY_TABLES WHERE SCHEMA_NAME=:schema ",
+                "SELECT TABLE_NAME, TEMPORARY_TABLE_TYPE FROM M_TEMPORARY_TABLES WHERE SCHEMA_NAME=:schema ",
             ).bindparams(
                 schema=self.denormalize_name(schema),
             )
         )
 
         temp_table_names = list([
-            self.normalize_name(row[0]) for row in result.fetchall()
+            self.normalize_name(row[0]) for row in result.fetchall() if row[1] == "GLOBAL"
         ])
         return temp_table_names
 
