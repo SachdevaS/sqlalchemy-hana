@@ -414,13 +414,9 @@ ORDER BY POSITION"""
                 "referred_schema": schema,
                 "referred_table": self.normalize_name(row[3]),
                 "referred_columns": [self.normalize_name(row[4])],
-                "options": {}
+                "options": {"onupdate": row[5],
+                            "ondelete": row[6]}
             }
-
-            if row[5] != "RESTRICT" and row[6] != "RESTRICT" :
-                foreign_key["options"] = \
-                {"onupdate": self.denormalize_name(row[5]),
-                 "ondelete": self.denormalize_name(row[6])}
 
             if row[2] != self.denormalize_name(self.default_schema_name):
                 foreign_key["referred_schema"] = self.normalize_name(row[2])
