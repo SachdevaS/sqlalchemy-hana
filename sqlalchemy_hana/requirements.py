@@ -266,7 +266,7 @@ class Requirements(requirements.SuiteRequirements):
 
     @property
     def check_constraint_reflection(self):
-        return exclusions.open()
+        return exclusions.closed()
 
     @property
     def implicitly_named_constraints(self):

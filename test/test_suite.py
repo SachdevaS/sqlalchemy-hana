@@ -55,41 +55,41 @@ class HANAConnectionIsDisconnectedTest(fixtures.TestBase):
 
 
 class ComponentReflectionTest(_ComponentReflectionTest):
-    @testing.provide_metadata
-    def _test_get_check_constraints(self, schema=None):
-        orig_meta = self.metadata
-        Table(
-            'sa_cc', orig_meta,
-            Column('a', Integer()),
-            sa.CheckConstraint('a > 1 AND a < 5', name='cc1'),
-            sa.CheckConstraint('a = 1 OR (a > 2 AND a < 5)', name='cc2'),
-            schema=schema
-        )
-
-        orig_meta.create_all()
-
-        inspector = inspect(orig_meta.bind)
-        reflected = sorted(
-            inspector.get_check_constraints('sa_cc', schema=schema),
-            key=operator.itemgetter('name')
-        )
-
-        reflected = [
-            {"name": item["name"],
-             # trying to minimize effect of quoting, parenthesis, etc.
-             # may need to add more to this as new dialects get CHECK
-             # constraint reflection support
-             "sqltext": re.sub(r"[`'\(\)]", '', item["sqltext"].lower())}
-            for item in reflected
-        ]
-        eq_(
-            reflected,
-            [
-                {'name': 'cc1', 'sqltext': '  "a" > 1 and "a" < 5  '},
-                {'name': 'cc2', 'sqltext': '  "a" = 1 or   "a" > 2 and "a" < 5    '}
-            ]
-        )
-
+    # @testing.provide_metadata
+    # def _test_get_check_constraints(self, schema=None):
+    #     orig_meta = self.metadata
+    #     Table(
+    #         'sa_cc', orig_meta,
+    #         Column('a', Integer()),
+    #         sa.CheckConstraint('a > 1 AND a < 5', name='cc1'),
+    #         sa.CheckConstraint('a = 1 OR (a > 2 AND a < 5)', name='cc2'),
+    #         schema=schema
+    #     )
+    #
+    #     orig_meta.create_all()
+    #
+    #     inspector = inspect(orig_meta.bind)
+    #     reflected = sorted(
+    #         inspector.get_check_constraints('sa_cc', schema=schema),
+    #         key=operator.itemgetter('name')
+    #     )
+    #
+    #     reflected = [
+    #         {"name": item["name"],
+    #          # trying to minimize effect of quoting, parenthesis, etc.
+    #          # may need to add more to this as new dialects get CHECK
+    #          # constraint reflection support
+    #          "sqltext": re.sub(r"[`'\(\)]", '', item["sqltext"].lower())}
+    #         for item in reflected
+    #     ]
+    #     eq_(
+    #         reflected,
+    #         [
+    #             {'name': 'cc1', 'sqltext': '  "a" > 1 and "a" < 5  '},
+    #             {'name': 'cc2', 'sqltext': '  "a" = 1 or   "a" > 2 and "a" < 5    '}
+    #         ]
+    #     )
+    #
     @classmethod
     def define_temp_tables(cls, metadata):
 
