@@ -287,3 +287,7 @@ class Requirements(requirements.SuiteRequirements):
     @property
     def autocommit(self):
         return exclusions.open()
+
+    @property
+    def sequences_optional(self):
+        return exclusions.open()
